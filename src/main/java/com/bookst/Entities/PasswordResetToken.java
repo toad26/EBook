@@ -12,6 +12,9 @@ public class PasswordResetToken {
     private long userId;
     private User userByUserId;
 
+    public PasswordResetToken(String token, User user) {
+    }
+
     @Id
     @Column(name = "id", nullable = false)
     public long getId() {
