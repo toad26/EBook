@@ -12,6 +12,9 @@ public class UserRole {
     private Role roleByRoleId;
     private User userByUserId;
 
+    public UserRole(User u, Role role) {
+    }
+
     @Id
     @Column(name = "user_role_id", nullable = false)
     public long getUserRoleId() {

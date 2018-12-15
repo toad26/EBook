@@ -1,0 +1,17 @@
+.background-image-home{
+    background-image: url(../img/bg-img/a1.jpg);
+}
+
+.category-home1{
+    background-image: url(../img/bg-img/b2.jpg);
+}
+.category-home2{
+    background-image: url(../img/bg-img/b3.jpg);
+}
+.category-home3{
+     background-image: url(../img/bg-img/b4.jpg);
+ }
+
+.background-image-header{
+   background-image: url(../img/bg-img/breadcumb.jpg);
+}
